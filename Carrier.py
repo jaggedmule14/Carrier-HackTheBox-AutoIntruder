@@ -3,23 +3,20 @@ import requests
 import base64
 import time
 
-print("""
- _             _             ___  _____ 
-| |           (_)           |__ \| ____|""")
+print('''   _                            _                 _      _ _  _   ''')
 time.sleep(0.1)
-print("| | _____ _ __ _  __ _  __ _   ) | |__  ")
+print('''  (_) __ _  __ _  __ _  ___  __| |_ __ ___  _   _| | ___/ | || |  ''')
 time.sleep(0.1)
-print("| |/ / _ \ '__| |/ _` |/ _` | / /|___ \ ")
+print('''  | |/ _` |/ _` |/ _` |/ _ \/ _` | '_ ` _ \| | | | |/ _ \ | || |_ ''')
 time.sleep(0.1)
-print("|   <  __/ |  | | (_| | (_| |/ /_ ___) |")
+print('''  | | (_| | (_| | (_| |  __/ (_| | | | | | | |_| | |  __/ |__   _|''')
 time.sleep(0.1)
-print("|_|\_\___|_|  | |\__,_|\__, |____|____/ ")
+print(''' _/ |\__,_|\__, |\__, |\___|\__,_|_| |_| |_|\__,_|_|\___|_|  |_|  ''')
 time.sleep(0.1)
-print("             _/ |       __/ |           ")
+print('''|__/       |___/ |___/                                            ''')
 time.sleep(0.1)
-print("            |__/       |___/       ")
-time.sleep(0.1)
-print('KERJAG25 - CARRIER HACKTHEBOX AUTOINTRUDER\n')
+
+print('JAGGEDMULE14 - CARRIER HACKTHEBOX AUTOINTRUDER\n')
 
 ip = input('Introduce tu IP (tun0): ')
 port = int(input('Puerto con el que quieras romper la mamona\n\n[!]IMPORTANTE\nSi el puerto que quieres está por debajo del 1024 requeriras ejecutar este script como root\nrecomiendo un puerto superior al 1024\n\nIntroduce tu puerto: '))
